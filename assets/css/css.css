@@ -1,0 +1,1051 @@
+/* defult format */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid; */
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Cairo', sans-serif !important;
+    /* overflow-x: hidden;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important; */
+    background-color: #FFF;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=110651);
+}
+
+
+/* --------------------------------header----------------------------------- */
+.headertest {
+    position: relative;
+}
+
+.opacitydiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .9;
+}
+
+.opacityred {
+    background: rgba(203, 71, 93);
+    float: right;
+}
+
+.opacityorange {
+    background: #f98a5e;
+    float: left;
+}
+
+.headerlogo {
+    position: absolute;
+    left: 33%;
+    bottom: 40%;
+}
+
+.opacityredbut {
+    margin: 10px 50px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.opacityredbut button {
+    background-color: #fff;
+    border-radius: 20px;
+    color: #d67385;
+    padding: 5px 50px;
+    border: none;
+}
+
+.searchsec {
+    margin-top: -60px;
+    margin-bottom: 50px;
+}
+
+.searchsecrow {
+    background-image: linear-gradient(#ff8b5c, #d0465d);
+    padding: 35px 0px;
+    box-shadow: #e2e2e2 5px 5px 5px 5px;
+
+}
+
+.searchsec select {
+    width: 100%;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 10px 50px;
+    border: none;
+    color: #d5d5d5;
+}
+
+.searchsec button {
+    width: 100%;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 5px 0px;
+    background: #fff;
+    border: none;
+    color: #d5d5d5;
+}
+
+/* --------------------------------category----------------------------------- */
+.catdiv {
+    text-align: left;
+    color: #fff;
+    padding: 50px;
+    font-size: 50px;
+    border-radius: 130px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+
+.categorydropdown {
+    background-color: #434343;
+    border-radius: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+/* category hover */
+.categoryhover {
+    background-color: #434343;
+    border-radius: 30px;
+    border: none;
+}
+
+.categoryhover span {
+    color: #b2b2b2;
+    font-size: 15px;
+}
+
+.categoryhover span a {
+    color: #b2b2b2;
+    float: left;
+}
+
+/* category hover */
+
+.categorydropdown span {
+    color: #b2b2b2;
+    font-size: 15px;
+}
+
+.categorydropdown span a {
+    color: #b2b2b2;
+    float: left;
+}
+
+.categorydropdown .dropdown-item {
+    color: #b2b2b2;
+    background-color: #434343;
+    min-width: 200px;
+    font-size: 18px;
+
+}
+
+.categorydropdown .dropdown-item:hover {
+    background: linear-gradient(rgba(156, 156, 156, 0.829), #524946);
+}
+
+/* category hover */
+.categorycol {
+    position: relative;
+}
+
+.categoryhover {
+    position: absolute;
+    background-color: #434343;
+    border-radius: 30px;
+    width: 50%;
+    top: -30;
+    right: 0;
+    text-align: center;
+    border: none;
+    display: none;
+}
+
+.categoryhover span {
+    color: #b2b2b2;
+    font-size: 15px;
+}
+
+.categoryhover span a {
+    color: #b2b2b2;
+    float: left;
+}
+
+.categorycol:hover .categoryhover {
+    display: block;
+}
+
+
+
+/* category hover */
+
+/*---------------------------------- invest ----------------------------------*/
+
+.newe3lan {
+    margin-top: 50px;
+}
+
+.newe3lantitle {
+    border-right: #ff8a5d 10px solid;
+    color: #d86075;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.newe3laniteemdetail {
+    background-color: #f5f5f5;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+
+
+}
+
+.newe3laniteemdetail h3,
+.newe3laniteemdetail2 h3 {
+    padding: 5px 15px;
+    font-weight: bold;
+    color: #444444c4;
+
+}
+
+.newe3laniteemdetail p,
+.newe3laniteemdetail2 p {
+    padding: 5px 15px;
+    /* font-weight: bold; */
+    color: #a1a1a1;
+
+}
+
+.detailicon {
+    color: #e3abb4;
+    padding: 10px;
+}
+
+.moree3lancol button {
+    font-size: 20px;
+    background: linear-gradient(#ff8b5c, #d0465d);
+    /* background: #e2615c; */
+    padding: 5px 70px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.moree3lancol button a {
+    color: #fef8f8;
+}
+
+/* --------------------------------Subscrib----------------------------------- */
+.Subscribesec {
+    position: relative;
+}
+
+.Subscribediv {
+    background: #fe8f64;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .960;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    padding: 50px;
+}
+
+.Subscribediv input {
+    border-radius: 40px;
+    padding: 5px 10px;
+    background: #fff;
+    border: none;
+    margin: 50px 0px;
+}
+
+.Subscribediv input::placeholder {
+    color: #bdbdbd;
+
+}
+
+.Subscribediv button {
+    border-radius: 40px;
+    color: #fe8f64;
+    font-size: 30px;
+    padding: 5px 80px;
+    background: #fff;
+    border: none;
+}
+
+/*---------------------------------- footer ----------------------------------*/
+
+footer {
+    background: #cf455c;
+    padding: 50px 0px;
+}
+
+.footerimg p {
+    color: #f3ced3;
+    font-size: 17px;
+}
+
+.footermap a {
+    color: #f3ced3;
+    font-size: 20px;
+    padding: 0px 8px;
+    width: 100%;
+}
+
+.footersocial {
+    color: #e3abb4;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.footerdownload {
+    color: #f3ced3;
+    font-size: 25px;
+    text-align: center;
+    float: left;
+}
+
+.footerdownload button {
+    font-size: 20px;
+    background: #f8f8f8;
+    color: #d4576c;
+    padding: 10px;
+    margin: 25px 0px;
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+}
+
+.footerdownload a {
+    color: #ff8a5e;
+}
+
+@media screen and (max-width: 1024px) {
+    .bgimg {
+        height: 100%;
+    }
+
+    .logo-50 {
+        width: 30%;
+    }
+
+    /* --------------------------------Subscrib----------------------------------- */
+    .Subscribediv input {
+        margin: 10px 0px;
+    }
+
+    /*---------------------------------- footer ----------------------------------*/
+    .footerdownload button {
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* --------------------------------category----------------------------------- */
+    .catdiv {
+        padding: 25px;
+        font-size: 40px;
+        border-radius: 50px;
+
+    }
+
+    .categorydropdown {
+        border-radius: 30px;
+    }
+
+    .categorydropdown span {
+        font-size: 12px;
+
+
+    }
+
+    .categorydropdown span a {
+        color: #b2b2b2;
+        float: left;
+    }
+
+    .categorydropdown .dropdown-item {
+        min-width: 100px;
+        font-size: 12px;
+
+    }
+
+    /* --------------------------------Subscrib----------------------------------- */
+    .Subscribediv {
+        font-size: 20px;
+    }
+
+    .Subscribediv input {
+        margin: 10px 0px;
+    }
+
+    /*---------------------------------- footer ----------------------------------*/
+    .footerdownload {
+        font-size: 20px;
+    }
+
+    .footerdownload button {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    /* --------------------------------header----------------------------------- */
+
+    .headerlogo {
+        width: 50%;
+        left: 23%;
+    }
+
+    .opacityredbut {
+        margin: 10px 10px;
+        font-size: 18px;
+
+    }
+
+
+    .searchsecrow {
+        padding: 10px 10px;
+
+    }
+
+    .searchsec select {
+        width: 90%;
+        margin: 5px 0px;
+    }
+
+    .searchsec button {
+        width: 50%;
+        margin-top: 5px;
+    }
+
+    .categorycol {
+        margin-bottom: 10px;
+    }
+
+
+    /* --------------------------------category----------------------------------- */
+    .catdiv {
+        width: 80px;
+        height: 80px;
+        margin: 0px 40px 0px 0px;
+
+    }
+
+
+    .categorydropdown {
+        margin-bottom: 10px;
+    }
+
+    /* --------------------------------Subscrib----------------------------------- */
+
+    .Subscribediv {
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    .Subscribediv input {
+        margin: 0px 0px 5px 0px;
+
+    }
+
+
+    .Subscribediv button {
+        font-size: 15px;
+        padding: 5px 80px;
+    }
+
+    /*---------------------------------- footer ----------------------------------*/
+    .footerimg p {
+        font-size: 10px;
+    }
+
+    .footermap a {
+        font-size: 10px;
+        padding: 0px 0px;
+    }
+
+    .footerdownload {
+        font-size: 12px;
+    }
+
+    .footerdownload button {
+        font-size: 10px;
+        padding: 0px 10px;
+        margin: 5px 0px;
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /* --------------------------------header----------------------------------- */
+
+    .opacityredbut {
+        margin: 10px 0px;
+        font-size: 15px;
+
+    }
+
+    .headerlogo {
+        width: 45%;
+        left: 25%;
+    }
+
+    /* --------------------------------Subscrib----------------------------------- */
+
+    .Subscribediv {
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    .Subscribediv button {
+        padding: 5px 80px;
+    }
+
+    /*---------------------------------- footer ----------------------------------*/
+    .footerdownload {
+        font-size: 12px;
+    }
+
+    .footerdownload button {
+        font-size: 10px;
+        padding: 0px 0px;
+        margin: 5px 0px;
+        width: 120%;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* --------------------------------header----------------------------------- */
+
+    .opacityredbut {
+        margin: 10px 0px;
+        font-size: 10px;
+
+    }
+
+    .headerlogo {
+        width: 45%;
+        top: 25%;
+    }
+
+    /* --------------------------------Subscrib----------------------------------- */
+
+    .Subscribediv {
+        font-size: 15px;
+        padding: 0px;
+    }
+
+    .Subscribediv input {
+        margin: 0px 0px 2px 0px;
+
+    }
+
+
+    .Subscribediv button {
+        font-size: 13px;
+        padding: 1px 30px;
+    }
+
+    /*---------------------------------- footer ----------------------------------*/
+    .footermap a {
+        font-size: 8px;
+    }
+
+    .footerdownload {
+        font-size: 10px;
+    }
+}
+
+
+/*---------------------------------- cars  ----------------------------------*/
+
+.starsAdvertising {
+    background: #f1f1f1;
+}
+
+.newe3laniteemdetail2 {
+    background-color: #fff;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.Advertispage {
+    background: #f1f1f1;
+    padding: 70px 0px;
+    margin-bottom: 0px;
+}
+
+.pagination li a {
+    background-color: #cf455c;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.carssearchrow {
+    padding: 40px 0px 70px 0px;
+
+}
+
+.carssearchcol {
+    margin-bottom: 25px;
+}
+
+
+/*---------------------------------- car details ----------------------------------*/
+
+.headercarsec {
+    background: url(../img/Home/headerbg.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.car-details {
+    background: #f1f1f1;
+    padding: 30px 0px;
+}
+
+.cartitle {
+    margin-bottom: 20px;
+}
+
+.cartitle p {
+    color: #fd9268;
+}
+
+.puplishdate {
+    padding: 0px 5px;
+    margin-bottom: 100px;
+    border-right: #fd9268 2px solid;
+}
+
+.carimgrow {
+    margin: 0px;
+    position: relative;
+}
+
+.carimg {
+    background: #605f5d;
+    padding: 0px;
+}
+
+.carimg img {
+    opacity: 0.5
+}
+
+.carimg a {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 50%;
+    right: 50%;
+}
+
+.add-favourite,
+.add-favourite a {
+    color: #ce445d;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.report-problem,
+.report-problem a {
+    color: #fd8a5b;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.car-option .div {
+    background-color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.car-option .div span:first-child {
+    padding: 0px 20px;
+}
+
+.lastcar-option {
+    padding-bottom: 50px !important;
+}
+
+
+.car-option .div span p {
+    padding: 0px 20px;
+    margin: 0px;
+
+
+}
+
+.send-car-option {
+    font-size: 20px;
+}
+
+.send-car-option p {
+    color: #d0455c;
+}
+
+.send-details {
+    color: #828282 !important;
+    background-color: #fff;
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+
+.price p {
+    margin: 0px 0px 55px 0px;
+}
+
+.price span {
+    background-color: #fff;
+    color: #d0455c;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 50px;
+}
+
+.sendprice {
+    background-color: #d0455c;
+    font-size: 20px;
+    padding: 10px 70px;
+    border-radius: 50px;
+    margin: 0px 0px 55px 0px;
+    border: none;
+}
+
+.callprice {
+    background: #e2615c;
+    font-size: 20px;
+    padding: 10px 90px;
+    border-radius: 50px;
+    margin: 10px 0px 50px 0px;
+    border: none;
+}
+
+.userdata {
+    background-color: #fff;
+    margin: 10px 0px 50px 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.userdataicon a {
+    font-size: 50px;
+}
+
+.userdatadetail h2 {
+    color: #d0455c;
+}
+
+.userdatadetail p {
+    color: #d0455c;
+}
+
+.userdatadetail a {
+    color: black;
+}
+
+.security {
+    background: #656565;
+    padding: 12px;
+    margin: 25px 0px;
+    color: white;
+    border-radius: 10px;
+}
+
+.security h1 {
+    text-align: center;
+}
+
+.security ul {
+    list-style: none;
+    font-size: 15px;
+}
+
+.security li {
+    margin: 10px 0px;
+}
+
+.security li::before {
+    content: "•";
+    color: #fe8a5b;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.additional-option input[type=checkbox] {
+    transform: scale(.5);
+    float: left;
+}
+
+.checkbox-item {
+    font-size: 20px;
+    float: left;
+}
+
+.checkbox-item label {
+    color: #fe8a5b;
+    float: left;
+
+}
+
+.checkbox-item input {
+    width: auto !important;
+    height: auto !important;
+    /* padding: 0px !important; */
+    margin: 0px !important;
+
+}
+
+.checkbox-item input[type=checkbox]:checked+label {
+    color: #f00;
+    font-style: normal;
+}
+
+/*---------------------------------- login page ----------------------------------*/
+
+.loginpage {
+    background: #f1f1f1;
+    padding: 50px 0px;
+}
+
+.loginform {
+    background: #fff;
+    padding: 50px 20px;
+}
+
+.loginform input {
+    font-size: 20px;
+    background: #cf455c;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.loginform input::placeholder {
+    color: #f2d8db;
+}
+
+.loginform button {
+    background: #cf455c;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 0px 50px;
+    border-radius: 50px;
+    border: none;
+    color: #f2d8db;
+}
+
+.loginreg a {
+    color: #cf455c;
+}
+
+.loginimgcol {
+    padding: 0px;
+}
+
+
+/*---------------------------------- regester  page ----------------------------------*/
+
+.signphone {
+    color: #cf455c;
+}
+
+.signphone h6 {
+    font-size: 20px;
+
+}
+
+.signphone h6::before {
+    content: "•";
+    color: #fe8a5b;
+    font-size: 50px;
+    /* font-weight: bold; */
+}
+
+.regform {
+    padding: 100px 0px;
+}
+
+
+
+
+/*---------------------------------- regester  page ----------------------------------*/
+
+.addAdvertis {
+    padding: 50px 0px;
+    background: #f1f1f1;
+}
+
+.advertis-detail {
+    margin-top: 10px;
+    background: #ececec;
+    padding: 50px 0px;
+    text-align: center;
+    box-shadow: 1px 1px 10px 10px #e2e2e2;
+    border-radius: 50px;
+}
+
+.advertis-detail p {
+    color: #fe8a5b;
+    font-size: 20px;
+}
+
+.advertis-detail input {
+    width: 100%;
+    border-radius: 50px;
+    height: 40px;
+    border: none;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.searchlist {
+    position: relative;
+
+}
+
+.searchlist select {
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 50px;
+    padding: 15px;
+    font-size: 20px;
+    color: #fd8a5b;
+    font-weight: bold;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.searchlist select option {
+    color: #f1f1f1;
+    background-color: #fd8a5b;
+}
+
+.searchlist>div {
+    font-size: 40px;
+    color: #fd8a5b;
+    width: 40px;
+    height: 54px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    left: 10px;
+}
+
+
+/*---------------------------------- password1  page ----------------------------------*/
+
+.iputicon {
+    position: relative;
+    overflow-y: hidden;
+}
+
+.iputicon a {
+    position: absolute;
+    font-size: 20px;
+    top: 10px;
+}
+
+.iputicon input {
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .regformcol {
+        height: 473px;
+    }
+
+    .passwordcode {
+        height: 473px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .regformcol {
+        height: 355px;
+        padding: 0px 10px !important;
+    }
+
+    .passwordcode {
+        padding: 0px 10px !important;
+        height: 355px;
+    }
+
+    .conpass {
+        height: 355px;
+        padding: 10px 10px !important;
+
+    }
+
+    .conpass h6 {
+        font-size: 15px !important;
+    }
+
+    .regformcol h6 {
+        font-size: 15px !important;
+    }
+
+    .passwordcode h6 {
+        font-size: 15px !important;
+    }
+
+    .loginform {
+        background: #fff;
+        padding: 50px 20px 0px 20px;
+    }
+}
