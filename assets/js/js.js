@@ -1,12 +1,13 @@
-$(document).ready(function(){
-    $(".dropdown-toggle").click(function () {
-        $(".dropdown-menu").show()
-    });
+$(document).ready(function () {
 
-    
-
-    $('.serchbut').click(function(){
-        $(this).siblings('select').open('open');
+    $(".serchbut").on("click", function () {
+        // var se = $(".searchselect ");
+        $(".searchlist").on("open");
+        // se[0].size=13;
     });
+    // $(".catbutt").on("click", function () {
+    //     $(".logintopmenu").hide();
+    //     $(this).next(".logintopmenu").show();
+    // })
 
 })

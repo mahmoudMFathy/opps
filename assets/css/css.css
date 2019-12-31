@@ -74,6 +74,8 @@ body {
     background-image: linear-gradient(#ff8b5c, #d0465d);
     padding: 35px 0px;
     box-shadow: #e2e2e2 5px 5px 5px 5px;
+    padding: 10px 10px;
+
 
 }
 
@@ -84,6 +86,7 @@ body {
     padding: 10px 50px;
     border: none;
     color: #d5d5d5;
+    margin: 10px 0px;
 }
 
 .searchsec button {
@@ -93,6 +96,7 @@ body {
     padding: 5px 0px;
     background: #fff;
     border: none;
+    margin: 10px 0px;
     color: #d5d5d5;
 }
 
@@ -105,15 +109,16 @@ body {
     border-radius: 130px;
 }
 
-.dropdown:hover .dropdown-menu {
+/* .dropdown:hover .dropdown-menu {
     display: block;
 
-}
+} */
 
 .categorydropdown {
     background-color: #434343;
     border-radius: 30px;
     margin-top: 5px;
+    margin-bottom: 10px;
     cursor: pointer;
     border: none;
 }
@@ -236,6 +241,7 @@ body {
 .detailicon {
     color: #e3abb4;
     padding: 10px;
+
 }
 
 .moree3lancol button {
@@ -293,6 +299,79 @@ body {
     border: none;
 }
 
+@media screen and (max-width: 1024px) {
+    .Subscribediv input {
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    .Subscribediv {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .Subscribediv {
+        font-size: 30px;
+    }
+
+    .Subscribediv input {
+        margin: 5px 0px;
+    }
+
+
+}
+
+@media screen and (max-width: 660px) {
+    .Subscribediv {
+        font-size: 30px;
+        padding: 0px;
+    }
+
+    .Subscribediv input {
+        padding: 0px 10px;
+        margin: 2px 0px;
+    }
+
+    .Subscribediv button {
+        font-size: 30px;
+        padding: 0px 80px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .Subscribediv {
+        font-size: 20px;
+    }
+
+    .Subscribediv button {
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .Subscribediv {
+        font-size: 20px;
+    }
+
+    .Subscribediv button {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .Subscribediv {
+        font-size: 15px;
+    }
+
+    .Subscribediv button {
+        font-size: 15px;
+        padding: 0px 20px;
+
+    }
+}
+
 /*---------------------------------- footer ----------------------------------*/
 
 footer {
@@ -313,7 +392,7 @@ footer {
 }
 
 .footersocial {
-    color: #e3abb4;
+    color: #fff;
     padding: 10px;
     font-size: 30px;
 }
@@ -329,14 +408,16 @@ footer {
     font-size: 20px;
     background: #f8f8f8;
     color: #d4576c;
-    padding: 10px;
+    padding: 5px 15px;
     margin: 25px 0px;
     width: 100%;
+    text-align: center;
     border-radius: 40px;
     border: none;
 }
 
 .footerdownload a {
+    font-size: 35px;
     color: #ff8a5e;
 }
 
@@ -349,10 +430,32 @@ footer {
         width: 30%;
     }
 
-    /* --------------------------------Subscrib----------------------------------- */
-    .Subscribediv input {
-        margin: 10px 0px;
+    .categorydropdown span {
+        color: #b2b2b2;
+        font-size: 12px;
+
     }
+
+    .categorydropdown span a {
+        color: #b2b2b2;
+        float: left;
+    }
+
+    .categorydropdown .dropdown-item {
+        color: #b2b2b2;
+        background-color: #434343;
+        min-width: 200px;
+        font-size: 18px;
+
+    }
+
+    .catdiv {
+        padding: 30px 10px;
+        font-size: 50px;
+        border-radius: 50px;
+    }
+
+    /* --------------------------------Subscrib----------------------------------- */
 
     /*---------------------------------- footer ----------------------------------*/
     .footerdownload button {
@@ -360,11 +463,66 @@ footer {
     }
 }
 
+@media screen and (max-width: 991px) {
+
+    .price p {
+        margin: 0px 0px 55px 0px;
+    }
+
+
+    .price span {
+        background-color: #fff;
+        color: #d0455c;
+        font-size: 20px;
+        padding: 10px 40px !important;
+        border-radius: 50px;
+    }
+
+    .searchsec select {
+        /* width: 90%;
+    margin: 5px 0px; */
+        font-size: 15px;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
+    .headerlogo {
+        position: absolute;
+        left: 20%;
+        bottom: 40%;
+    }
+
+    .searchsec select {
+        font-size: 17px;
+        padding: 10px 13px;
+    }
+
+    .price p {
+        margin: 0px 0px 55px 0px;
+    }
+
+
+    .price span {
+        background-color: #fff;
+        color: #d0455c;
+        font-size: 20px;
+        padding: 10px 15px !important;
+        border-radius: 50px;
+    }
+
+    .callprice {
+        background: #e2615c;
+        font-size: 20px;
+        padding: 10px 70px !important;
+        border-radius: 50px;
+        margin: 10px 0px 50px 0px;
+        border: none;
+    }
 
     /* --------------------------------category----------------------------------- */
     .catdiv {
-        padding: 25px;
+        padding: 15px 5px;
         font-size: 40px;
         border-radius: 50px;
 
@@ -376,13 +534,15 @@ footer {
 
     .categorydropdown span {
         font-size: 12px;
+        padding: 0;
+
 
 
     }
 
     .categorydropdown span a {
         color: #b2b2b2;
-        float: left;
+        float: none;
     }
 
     .categorydropdown .dropdown-item {
@@ -392,13 +552,7 @@ footer {
     }
 
     /* --------------------------------Subscrib----------------------------------- */
-    .Subscribediv {
-        font-size: 20px;
-    }
 
-    .Subscribediv input {
-        margin: 10px 0px;
-    }
 
     /*---------------------------------- footer ----------------------------------*/
     .footerdownload {
@@ -410,6 +564,63 @@ footer {
     }
 }
 
+@media screen and (max-width: 605px) {
+    .opacityredbut button {
+        padding: 5px 40px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .headerlogo {
+        width: 50%;
+        left: 20%;
+        bottom: 40%;
+    }
+
+    .catdiv {
+        text-align: center;
+        color: #fff;
+        /* padding: 30px 10px; */
+        font-size: 50px;
+        width: 50%;
+        height: 50%;
+        border-radius: 50px;
+        display: inline-block;
+    }
+
+    .catdivhome {
+        margin-bottom: 10px;
+    }
+
+    .categorydropdown {
+        border-radius: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .callprice {
+        padding: 10px 90px !important;
+    }
+
+}
+
+@media screen and (max-width: 565px) {
+    .opacityredbut button {
+        padding: 5px 30px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .opacityredbut button {
+        padding: 5px 10px;
+    }
+
+    .headerlogo {
+        width: 50%;
+        left: 23%;
+    }
+}
 
 @media screen and (max-width: 425px) {
     /* --------------------------------header----------------------------------- */
@@ -426,10 +637,6 @@ footer {
     }
 
 
-    .searchsecrow {
-        padding: 10px 10px;
-
-    }
 
     .searchsec select {
         width: 90%;
@@ -444,6 +651,7 @@ footer {
     .categorycol {
         margin-bottom: 10px;
     }
+
 
 
     /* --------------------------------category----------------------------------- */
@@ -461,21 +669,6 @@ footer {
 
     /* --------------------------------Subscrib----------------------------------- */
 
-    .Subscribediv {
-        font-size: 20px;
-        padding: 0px;
-    }
-
-    .Subscribediv input {
-        margin: 0px 0px 5px 0px;
-
-    }
-
-
-    .Subscribediv button {
-        font-size: 15px;
-        padding: 5px 80px;
-    }
 
     /*---------------------------------- footer ----------------------------------*/
     .footerimg p {
@@ -516,14 +709,6 @@ footer {
 
     /* --------------------------------Subscrib----------------------------------- */
 
-    .Subscribediv {
-        font-size: 15px;
-        padding: 0px;
-    }
-
-    .Subscribediv button {
-        padding: 5px 80px;
-    }
 
     /*---------------------------------- footer ----------------------------------*/
     .footerdownload {
@@ -555,21 +740,6 @@ footer {
 
     /* --------------------------------Subscrib----------------------------------- */
 
-    .Subscribediv {
-        font-size: 15px;
-        padding: 0px;
-    }
-
-    .Subscribediv input {
-        margin: 0px 0px 2px 0px;
-
-    }
-
-
-    .Subscribediv button {
-        font-size: 13px;
-        padding: 1px 30px;
-    }
 
     /*---------------------------------- footer ----------------------------------*/
     .footermap a {
@@ -610,6 +780,11 @@ footer {
     margin: 5px;
 }
 
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    border-radius: 20px;
+}
+
 .carssearchrow {
     padding: 40px 0px 70px 0px;
 
@@ -617,6 +792,18 @@ footer {
 
 .carssearchcol {
     margin-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .newe3laniteemdetail {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .newe3laniteemdetail {
+        font-size: 25px;
+    }
 }
 
 
@@ -729,6 +916,7 @@ footer {
 .price p {
     margin: 0px 0px 55px 0px;
 }
+
 
 .price span {
     background-color: #fff;
@@ -961,9 +1149,11 @@ textarea {
 
 select {
     -webkit-appearance: none;
-    -moz-appearance: none;
+    z-index: -1;
+    opacity: 1;
+    /*  -moz-appearance: none;
     text-indent: 1px;
-    text-overflow: '';
+    text-overflow: ''; */
 }
 
 .searchlist select option {
@@ -974,19 +1164,176 @@ select {
 .searchlist>div {
     font-size: 40px;
     color: #fd8a5b;
-    width: 40px;
-    height: 54px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    background: #fff;
-    font-weight: bold;
     position: absolute;
     top: 0;
     cursor: pointer;
-    left: 10px;
+    left: 20px;
+    z-index: 1;
+    opacity: .9;
+}
+/* arrow select */
+#advcat select {
+    -webkit-appearance: none;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    opacity: .8;
+    font-size: 20px;
 }
 
+#advcat svg {
+    position: absolute;
+    top: 175;
+    left: 50;
+    font-size: 50px;
+    color: #fc4700;
+    opacity: 1;
+    z-index: .9;
 
+}
+#advcarcat select{
+    -webkit-appearance: none;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    z-index: 1;
+    color: #fc4700;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    opacity: .8;
+    font-size: 20px;
+}
+#advcarcat svg {
+    position: absolute;
+    top: 175;
+    left: 50;
+    font-size: 50px;
+    color: #fc4700;
+    opacity: 1;
+    z-index: .9;
+
+}
+#paytype select{
+    -webkit-appearance: none;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    z-index: 1;
+    color: #fc4700;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    opacity: .8;
+    font-size: 20px;
+}
+#paytype svg {
+    position: absolute;
+    top: 420;
+    left: 50;
+    font-size: 50px;
+    color: #fc4700;
+    opacity: 1;
+    z-index: .9;
+
+}
+#paymodeltype select{
+    -webkit-appearance: none;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    z-index: 1;
+    color: #fc4700;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    opacity: .8;
+    font-size: 20px;
+}
+#paymodeltype svg {
+    position: absolute;
+    top: 535;
+    left: 50;
+    font-size: 50px;
+    color: #fc4700;
+    opacity: 1;
+    z-index: .9;
+
+}
+#payyears select{
+    -webkit-appearance: none;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    z-index: 1;
+    color: #fc4700;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    opacity: .8;
+    font-size: 20px;
+}
+#payyears svg {
+    position: absolute;
+    top: 650;
+    left: 50;
+    font-size: 50px;
+    color: #fc4700;
+    opacity: 1;
+    z-index: .9;
+
+}
+#depriag select{
+    -webkit-appearance: none;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    z-index: 1;
+    color: #fc4700;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    opacity: .8;
+    font-size: 20px;
+}
+#depriag svg {
+    position: absolute;
+    top: 895;
+    left: 50;
+    font-size: 50px;
+    color: #fc4700;
+    opacity: 1;
+    z-index: .9;
+
+}
+#carstatus select{
+    -webkit-appearance: none;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    z-index: 1;
+    color: #fc4700;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    opacity: .8;
+    font-size: 20px;
+}
+#carstatus svg {
+    position: absolute;
+    top: 1010;
+    left: 50;
+    font-size: 50px;
+    color: #fc4700;
+    opacity: 1;
+    z-index: .9;
+
+}
+/* arrow select */
 /*---------------------------------- password1  page ----------------------------------*/
 
 .iputicon {
@@ -1006,29 +1353,30 @@ select {
 
 @media screen and (max-width: 1024px) {
     .regformcol {
-        height: 473px;
+        padding: 0px 10px;
+        /* height: 473px; */
     }
 
     .passwordcode {
-        height: 473px;
+        padding: 0px 10px;
     }
 }
 
 @media screen and (max-width: 768px) {
 
     .regformcol {
-        height: 355px;
+        /* height: 355px; */
         padding: 0px 10px !important;
     }
 
     .passwordcode {
         padding: 0px 10px !important;
-        height: 355px;
+        /* height: 355px; */
     }
 
     .conpass {
-        height: 355px;
-        padding: 10px 10px !important;
+        /* height: 355px; */
+        padding: 0px 10px !important;
 
     }
 
@@ -1044,8 +1392,49 @@ select {
         font-size: 15px !important;
     }
 
+    .loginform a {
+        font-size: 15px !important;
+    }
+
+    .loginform input,
+    .loginform button {
+        margin-bottom: 10px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
     .loginform {
         background: #fff;
+        padding: 23px 20px !important;
+    }
+
+    .conpass {
         padding: 50px 20px 0px 20px;
+
+    }
+
+    .conpass input {
+        margin-bottom: 40px;
+
+    }
+
+
+    .regform {
+        padding: 0px;
+    }
+
+    .loginform button {
+        font-size: 20px;
+        margin-bottom: 0px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .conpass {
+        padding: 20px 20px 0px 20px !important;
+
     }
 }
